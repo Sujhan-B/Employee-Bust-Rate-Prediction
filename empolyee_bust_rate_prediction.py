@@ -21,7 +21,7 @@ drive.mount('/content/drive')
 pd.set_option("display.max_columns", None)
 
 # Load data
-df = pd.read_csv("/content/drive/MyDrive/employee_burnout_analysis-AI 2.csv")
+df = pd.read_csv("---path from your drive---")
 df["Date of Joining"] = pd.to_datetime(df["Date of Joining"])
 
 # Overview
